@@ -1,0 +1,109 @@
+#menu1, #slide, #imgservice, #partenaireslide {
+	display: flex;
+}
+#slide, #partenaireslide {
+	overflow-x: auto;
+}
+
+#menu2 {
+	width: 100%;
+	height: 75px;
+}
+
+#menu2 ul li {
+	display: inline-block;
+	padding: 5px;
+
+}
+
+.item {
+	margin-left: 300px;
+	margin-top: 25px;
+}
+
+#logo {
+	position: absolute;
+	top: 5px;
+}
+
+.blocgris {
+	display: block;
+	background-color: #EAEAEA;
+}
+
+#services {
+	display: block;
+	background-color: #2A2929;
+	width: 100vw;
+	height: 376px;
+}
+
+.titreblanc {
+	color: #FFFFFF;
+}
+
+#titreqsm {
+	color: #B02020;
+	font-size: 90px;
+	font-family: 'Staatliches';
+	margin-left: 700px;
+}
+
+#qsm {
+	width: 100vw;
+	height: 100vh;
+}
+
+#imgqsm {
+	float: left;
+	margin-left: 140px; 
+	width: 406.5px;
+	height: 550px;
+}
+
+#blocqsm {
+	width: 801px;
+	height: 250px;
+	margin-left: 500px;
+	margin-top: 300px;
+	padding-top: 30px;
+}
+
+#blocqsm hr {
+	margin-top: 30px;
+}
+
+#blocqsm p {
+	font-family: 'Roboto', sans-serif;
+	width: 700px;
+	margin-left: 85px;
+	font-size: 20px;
+}
+
+.bouton {
+	width: 218px;
+	height: 56px;
+	background-color: #B02020;
+	color: #FFFFFF;
+	font-family: 'Staatliches';
+	letter-spacing: 5px;
+	padding-top: 5px;
+}
+
+#titreservice {
+	font-size: 53px;
+	font-family: 'Staatliches';
+	letter-spacing: 5px;
+}
+
+.imgservice {
+	border-radius: 50%;
+	width: 250px;
+	margin-left: 160px;
+	position: relative;
+
+}
+
+#texteservice {
+	display: inline-block;
+}
